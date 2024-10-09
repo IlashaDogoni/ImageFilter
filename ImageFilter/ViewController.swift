@@ -18,7 +18,6 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate & UINavi
     var currentFilter: CIFilter!
     
     override func viewDidLoad() {
-        print("Hello")
         super.viewDidLoad()
         title = "YACIFP"
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(importPicture))
